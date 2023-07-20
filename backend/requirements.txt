@@ -13,3 +13,14 @@ pydantic[email]
 
 # hashing
 passlib[bcrypt]
+
+# unit testing
+pytest
+requests
+
+# testing coverage, shows what hasn't been tested
+pytest-cov
+
+# cmd: pytest --cov="."
+# more readable format cmd: pytest --cov="." --cov-report html  # you have to find the index.html file
+# to omit test files, create a .coveragerc file like in this project
